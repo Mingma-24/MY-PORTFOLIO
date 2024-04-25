@@ -203,15 +203,15 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Backend Developer." ;
+        content: "Web Designer." ;
     }
     21%,
     40%{
-        content:"Web Designer."
+        content:"Backend Developer."
     }
     41%,
     60%{
-        content: "Frontend Developer.";
+        content: "Digital Marketing.";
     }
     61%,
     80%{
@@ -219,7 +219,7 @@ span{
     }
     81%,
     100%{
-        display: none;
+        content: "SEO & SMM";
     }
 }
 @keyframes typing{
