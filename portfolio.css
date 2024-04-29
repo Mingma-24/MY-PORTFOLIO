@@ -346,6 +346,9 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
+
+/* skill section */
+
 .skills{
     background: var(--bg-color);
     columns: black;
@@ -397,6 +400,9 @@ span{
     line-height: 1.7;
     margin-top: auto;
 }
+
+/* projection section */
+
 .projects{
     background: black;
     columns: var(--bg-color);
@@ -451,9 +457,10 @@ span{
     margin-top: 1rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
-    
+    align-items: center;    
+}
+.projects-info .links a{
+    margin: 2rem 1.5rem 3rem 0; 
 }
 .projects-info .links .git{
     display: inline-flex;
@@ -482,7 +489,13 @@ span{
     border-radius: 2rem;
     height: 40px;
     width: 150px;
-    padding: 5px 25px;
-    
-    
+    padding: 5px 25px;   
+    cursor: pointer; 
+    transition: 0.4s ease-in-out;
+}
+.projects-info .links .demo:hover{
+    transform: scale(1.04);
+    background-color: var(--main-color);
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 50px var(--main-color);
 }
